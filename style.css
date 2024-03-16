@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "outfit", open-sans;
+    background-color: hsl(0, 0%, 8%);
+    padding: 0;
+    margin: 0;
+}
+.card {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30px;
+    border-radius: 10px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 65px;
+    border-radius: 50%;
+}
+.text {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text p {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.text span:first-of-type {
+    font-size: 11.5px;
+    font-weight: 500;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+.text span:last-of-type {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.list {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 20%);
+    width: 260px;
+    height: 35px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.box:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+.box p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
